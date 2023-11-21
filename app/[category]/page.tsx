@@ -18,6 +18,9 @@ async function getData(category: string) {
 
   return data;
 }
+
+export const dynamic = "force-dynamic"; // komanda za svaku promjenu da budu dynamic, a na cashed //
+
 // ovo je komponenta za putanju na linkove, zbog toga smo pravili [category] folder //
 
 const CategoryPage = async ({ params }: { params: { category: string } }) => {

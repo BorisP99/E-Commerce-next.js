@@ -25,6 +25,8 @@ async function getData(slug: string) {
   return data;
 }
 
+export const dynamic = "force-dynamic"; // komanda za svaku promjenu da budu dynamic, a na cashed //
+
 const ProductPage = async ({ params }: { params: { slug: string } }) => {
   // ovo kreiramo preko slug, da bi nam se na link otvorila stranica za odredjeni product //
 
