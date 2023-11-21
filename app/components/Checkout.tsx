@@ -32,6 +32,7 @@ const Checkout = ({
 
   return (
     <Button
+      variant={"outline"}
       onClick={() => {
         buyNow(product.price_id); // vracemo funkciju kojoj prosledjujemo iz konstante product price_id //
       }}

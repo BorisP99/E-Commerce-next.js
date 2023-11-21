@@ -29,7 +29,7 @@ const Newest = async () => {
           </h2>
 
           <Link
-            href="/all"
+            href="/All"
             className="flex items-center text-primary gap-x-1 font-semibold"
           >
             See All{" "}
